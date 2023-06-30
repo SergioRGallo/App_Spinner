@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         // Creo el arreglo para cargar el spinner
         String [] opciones = {"sumar","restar","multiplicar","dividir"};
 
-        ArrayAdapter <String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, opciones);
+        ArrayAdapter <String> adapter = new ArrayAdapter<>(this, R.layout.spinner_item__rodrigo, opciones);
         spinner1.setAdapter(adapter);
     }
 
